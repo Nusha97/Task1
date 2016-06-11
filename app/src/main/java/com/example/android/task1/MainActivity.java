@@ -11,9 +11,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-/**
- * This app displays an order form to order coffee.
- */
+
 public class MainActivity extends ActionBarActivity {
 
     @Override
@@ -23,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /**
-     * This method is called when the order button is clicked.
+     * This method is called when the clickme button is clicked.
      */
     int number_click=0;
     public void submitClick(View view) {
